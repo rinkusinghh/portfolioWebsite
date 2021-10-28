@@ -1,0 +1,247 @@
+/* Css Reset; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+._headerContainer {
+    position: sticky;
+    top: 0;
+}
+
+/* Css Variables; */
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+}
+
+/* Navigation Bar: Logo and Imgage; */
+._logo {
+    margin-left: 3rem;
+}
+
+._logoImg {
+    height: 4rem;  
+}
+
+/* Navigation Bar; */
+#_navbar {
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+#_navbar::before {
+    content: "";
+    position: absolute;
+    background: var(--secondary-color);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/*  Navigation Bar: ListSyling;*/
+._navbarNav {
+    display: flex;
+    margin-left: 4rem;
+}
+
+._navItem {
+    list-style: none;
+    font-size: 1.7rem;
+    margin: 0rem 1rem;
+}
+
+._navLink {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 0rem 1rem;
+    border-radius: 2rem;
+}
+
+._navLink:hover {
+    color: var(--secondary-color);
+    background:	var(--primary-color);
+}
+
+/*  Home Section; */
+#_sectionHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+}
+
+#_sectionHome::before {
+    content: "";
+    position: absolute;
+    background: url('../img/peda2.jpg') no-repeat center center/cover ;
+    top: 0;
+    left: 0;
+    height: 70%;       
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+/* Services Section; */
+._h-secondary {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+._services{
+    display: flex;
+    margin-top: 3rem;
+    height: 25rem;
+}
+._serviceBoxImg {
+    height: 12rem;
+    display: block;
+    margin: auto;
+    padding: 0.8rem;
+}
+
+._servicesBox {
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 0rem 0.3rem;
+    border-radius: 1rem;
+}
+
+._center {
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 0.2rem;
+    font-size: 2.5rem;
+}
+
+._textCenter {
+    margin: 0.4rem 0.2rem;
+    font-size: 1.1rem;
+    text-transform: lowercase;
+}
+
+/* Client Section; */
+._clients {
+    position: relative;
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    height: 30vh;
+    align-items: center;
+
+}
+._clientItem {
+    padding: 0rem 1rem;
+}
+
+._clientItem::before {
+    content: "";
+    position: absolute;
+    background: url('../images/contact.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+    
+}
+._clientItemImg {
+    height: 7rem;
+}
+
+/* Contact Section; */
+._contactBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 3rem 0rem;
+}
+._contactBox::before {
+    position: absolute;
+    content: "";
+    background: url('../images/contact.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+._formGroup {
+    width: 60vw;
+}
+
+._contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+._contactFormLabel {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+._contactFormInput {
+    font-size: 1.2rem;
+    padding: 0.2rem 1rem;
+    text-transform: capitalize;
+    border-radius: 0.2rem;
+}
+
+/* ._contactFormTextarea {
+    width: 100%;
+} */
+
+
+/* Footer Section; */
+._footerTextCenter {
+    background: #000;
+    color: #fff;
+    height: 4rem;
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+/* Utils Classes */
+._h-primary {
+    font-size: 3.0rem;
+    margin-bottom: 0.8rem;
+    color: oldlace;
+    text-transform: capitalize;
+}
+
+._para1-text {
+    font-size: 1.3rem;
+    text-transform: lowercase;
+    color: var(--secondary-color);
+}
+
+._btn {
+    margin-top: 0.8rem;
+    border: 2px solid #fff;
+    font-size: 1.4rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+    background: cadetblue;
+    color: #fff;
+    cursor: pointer;
+}

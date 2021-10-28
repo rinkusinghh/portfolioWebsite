@@ -1,0 +1,91 @@
+
+/*  Home Section; */
+._para1-text {
+    font-size: 1.2rem;
+}
+/* Services Section; */
+._servicesBox {
+    width: 33vw;
+}
+
+._center {
+    font-size: 1.7rem;
+}
+
+._textCenter {
+    font-size: 1rem;
+}
+
+/* Utils Classes */
+._h-primary {
+    font-size: 2.5rem;}
+
+._h-secondary {
+    font-size: 3.5rem;
+}
+._btn {
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 905px) {
+    ._servicesBox { width: 32vw; }
+    ._clientItemImg { height: 5rem; }
+    ._footerTextCenter { font-size: 1.2rem; }
+    ._para1-text { font-size: 1.1rem; }
+    .navItem { font-size: 1.6rem; }
+    ._h-secondary { font-size: 3rem; }
+    ._serviceBoxImg { height: 11rem; }
+    ._contactFormLabel { font-size: 1.4rem; }
+    ._contactFormInput { font-size: 1.1rem; }
+}
+
+@media only screen and (max-width: 775px){
+    ._para1-text { font-size: 1rem; }
+    ._btn { font-size: 1rem; }
+    ._navItem { font-size: 1.4rem; }
+    ._serviceBoxImg { height: 10rem; }
+    ._clientItemImg { height: 4rem; }
+}
+
+@media only screen and (max-width: 705px){
+    ._para1-text { font-size: 0.9rem; }
+    ._navItem { font-size: 1.2rem; }
+    ._h-secondary { margin-top: 2rem; }
+    ._h-secondary { font-size: 3rem; }
+    ._serviceBoxImg { height: 9rem; }
+    ._center { font-size: 1.5rem; }
+    ._textCenter { font-size: 0.9rem; }
+    ._footerTextCenter { font-size: 1.1rem; }
+    ._contactFormLabel { font-size: 1.3rem; }
+    ._contactFormInput { font-size: 1rem; }
+}
+
+@media only screen and (max-width: 650px){
+    ._para1-text { font-size: 0.8rem; }
+    ._h-primary { font-size: 2.4rem; }
+    ._servicesBox { width: 31vw }
+    ._navItem { font-size: 1rem; }
+    ._logo { margin-left: 1rem; }
+    ._navbarNav { margin-left: 2rem; }
+    ._serviceBoxImg { height: 8rem; }
+    ._center { font-size: 1.4rem; }
+    ._textCenter { font-size: 0.8rem; }
+    ._clientItemImg { height: 3rem; }
+
+}
+@media only screen and (max-width: 570px){
+    ._para1-text { font-size: 0.6rem; }
+    ._h-primary { font-size: 2.1rem; }
+    ._btn { font-size: 0.8rem; }
+    ._navbarNav { flex-direction: column;}
+    ._navItem { margin: 0.2rem 1rem;}
+    ._h-secondary { margin-top: 1rem; }
+    ._h-secondary { font-size: 2rem; }
+    ._serviceBoxImg { height: 6rem; }
+    ._center { font-size: 1.3rem; }
+    ._textCenter { font-size: 0.7rem; }
+    ._clientItemImg { height: 2rem; }
+    ._footerTextCenter { font-size: 1rem; }
+    ._contactFormLabel { font-size: 1rem; }
+    ._contactFormInput { font-size: 0.6rem; }
+}
